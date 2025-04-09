@@ -1,5 +1,3 @@
-// Main App Component
-
 const App = () => {
   const [loading, setLoading] = React.useState(true);
   const [contentVisible, setContentVisible] = React.useState(false);
