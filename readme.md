@@ -1,4 +1,4 @@
-# Sip & Scale Documentation
+# Sip & Scale 
 
 Sip & Scale is a global dinner series connecting students, founders, and innovators. This project is a web application designed to showcase upcoming events, testimonials, and opportunities to join the community.
 
