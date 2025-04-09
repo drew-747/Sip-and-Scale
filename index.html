@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sip & Scale</title>
+    <meta name="description" content="Join Sip & Scale, a global dinner series connecting students, founders, and innovators. Build relationships and exchange ideas in a casual setting.">
+    
+    <!-- React and React DOM -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    
+    <!-- Babel for JSX -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <!-- TailwindCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <link href="styles/global.css" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563eb',
+                        secondary: '#3b82f6',
+                        accent: '#60a5fa',
+                        dark: '#1e293b',
+                        light: '#f8fafc'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <script project-code="kncwhy7ejmpw" src="https://ezsite.ai/ezsite-api.js"></script><script src="https://ezsite.ai/ezsite-chatbot.js"></script><meta property="og:title" content="Sip & Scale: Connect, Dine, Innovate"><meta property="og:description" content="Experience Sip & Scale, a global initiative fostering connections among students, founders, and innovators through casual dinners. Join us in your city!"><meta name="twitter:title" content="Sip & Scale "><meta name="twitter:description" content="Join Sip & Scale for global dinners connecting innovators and founders. Casual, inspiring, and no pressure!"><link rel="icon" href="https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/9838/2995d31d-e964-465d-9b27-d9fcee457d4a.png"><meta property="og:image" content="https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/9838/bc7bff6a-64c0-4836-8352-cb12c9347900.png"><meta name="twitter:image" content="https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/9838/f32ba9ec-daa1-4f63-b43d-39cde49b6e38.png"></head>
+<body class="bg-light">
+    <div id="root"></div>
+    
+    <!-- Component Scripts -->
+    <script type="text/babel" data-type="module" src="components/LoadingAnimation.js"></script>
+    <script type="text/babel" data-type="module" src="components/Navbar.js"></script>
+    <script type="text/babel" data-type="module" src="components/Hero.js"></script>
+    <script type="text/babel" data-type="module" src="components/About.js"></script>
+    <script type="text/babel" data-type="module" src="components/Cities.js"></script>
+    <script type="text/babel" data-type="module" src="components/CityLeads.js"></script>
+    <script type="text/babel" data-type="module" src="components/Events.js"></script>
+    <script type="text/babel" data-type="module" src="components/Testimonials.js"></script>
+    <script type="text/babel" data-type="module" src="components/Register.js"></script>
+    <script type="text/babel" data-type="module" src="components/Footer.js"></script>
+    
+    <!-- Utility Scripts -->
+    <script type="text/babel" data-type="module" src="utils/data.js"></script>
+    
+    <!-- Main App -->
+    <script type="text/babel" data-type="module" src="app.js"></script>
+
+    <!-- Error Handler -->
+    <script>
+        window.addEventListener('error', function(e) {
+            console.error('Script error:', e);
+        });
+    </script>
+</body>
+</html>

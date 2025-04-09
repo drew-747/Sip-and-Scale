@@ -1,0 +1,12 @@
+{
+  "name": "sip-and-scale",
+  "version": "1.0.0",
+  "description": "Sip & Scale - A global dinner series connecting innovators",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+} 
